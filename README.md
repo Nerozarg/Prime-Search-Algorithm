@@ -15,10 +15,11 @@ Why do they appear like this? lets take a look at Base 10, and Base 6 as an exam
 ## Base 10
 |Int|Composite|In Base\[2, 5\]|
 |-|-|-|
-|0/10|2\*5|true|
+|t|t|t|
 
 
 ## Base 6
+
 |Int|Composite|In Base[2, 3]|
 |-|-|-|
 |0|2\*3|true|
