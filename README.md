@@ -16,15 +16,7 @@ Why do they appear like this? lets take a look at Base 10, and Base 6 as an exam
 |Int|Composite|In Base\[2, 5\]|
 |-|-|-|
 |0/10|2\*5|true|
-|1|Prime|false => line|
-|2|Prime|true|
-|3|Prime|false => line|
-|4|2\*2|true|
-|5|Prime|true|
-|6|3\*2|true|
-|7|Prime|false => line|
-|8|2\*2\*2|true|
-|9|3\*3|false => line|
+
 
 ## Base 6
 |Int|Composite|In Base[2, 3]|
@@ -46,7 +38,7 @@ Example: base 6 [2, 3] - 5x5=25, 5x7=30...  7x7=49... and so on. This means we h
 
 |Base|Lines|Lines/Base|
 |-|-|-|
-|6|2| => 33,33%|
+|6|2|33,33%|
 |30|8|26,67%|
 |210|47|22,38%|
 |2310|478|20,69%|
