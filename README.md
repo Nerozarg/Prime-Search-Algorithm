@@ -13,9 +13,19 @@ In Base 30 [2\*3\*5]
 Why do they appear like this? lets take a look at Base 10, and Base 6 as an example.
 
 ## Base 10
+
 |Int|Composite|In Base\[2, 5\]|
 |-|-|-|
-|t|t|t|
+|0/10|2\*5|true|
+|1|Prime|false => line|
+|2|Prime|true|
+|3|Prime|false => line|
+|4|2\*2|true|
+|5|Prime|true|
+|6|3\*2|true|
+|7|Prime|false => line|
+|8|2\*2\*2|true|
+|9|3\*3|false => line|
 
 
 ## Base 6
@@ -30,7 +40,7 @@ Why do they appear like this? lets take a look at Base 10, and Base 6 as an exam
 |5|Prime|false => line|
 
 
-Pattern exmple: In Base 30 [2, 3, 5], lines form at [1, ~~2~~, ~~3~~, ~~5~~, 7, 11, 13, 17, 19, 23, 29] and not on any primes that are included inside the base. And in Base 210 [2, 3, 5, 7] we will beginn to see what happened to 3 again (in base 10) 11\*11=121 and 11 is not included in the base, therefore a line will form from it.
+Pattern exmple: In Base 30 [2, 3, 5], lines form at \[1, ~~2, 3, 5~~, 7, 11, 13, 17, 19, 23, 29\] and not on any primes that are included inside the base. And in Base 210 [2, 3, 5, 7] we will beginn to see what happened to 3 again (in base 10) 11\*11=121 and 11 is not included in the base, therefore a line will form from it.
 
 But there is still one other issue. The lines are just potential primes.
 If you write base 6 and base 30 down and add values in just the lines you will see primes, and another pattern of non primes.
