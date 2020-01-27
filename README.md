@@ -13,7 +13,7 @@ In Base 30 [2\*3\*5]
 Why do they appear like this? lets take a look at Base 10, and Base 6 as an example.
 
 ## Base 10
-|Int|Composite|In Base(2, 5)|
+|Int|Composite|In Base\[2, 5\]|
 |-|-|-|
 |0/10|2\*5|true|
 |1|Prime|false => line|
