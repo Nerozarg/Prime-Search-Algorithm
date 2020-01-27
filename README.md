@@ -32,7 +32,7 @@ Why do they appear like this? lets take a look at Base 10, and Base 6 as an exam
 
 |Int|Composite|In Base[2, 3]|
 |-|-|-|
-|0/10|2\*3|true|
+|0/6|2\*3|true|
 |1|Prime|false => line|
 |2|Prime|true|
 |3|Prime|true|
